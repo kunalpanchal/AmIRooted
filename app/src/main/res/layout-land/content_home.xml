@@ -24,11 +24,11 @@
                 <com.intrusoft.library.FrissonView xmlns:frisson="http://schemas.android.com/apk/res-auto"
                     android:id="@+id/frisson_view"
                     android:layout_width="match_parent"
-                    android:layout_height="300dp"
+                    android:layout_height="100dp"
                     frisson:alphaValue="50"
                     frisson:autoTint="true"
                     frisson:src="@mipmap/abstractbg"
-                    frisson:tideHeight="50dp"
+                    frisson:tideHeight="20dp"
                     frisson:tintColor="@color/colorPrimary" />
 
                 <TextView
@@ -38,7 +38,7 @@
                     android:layout_gravity="center_vertical"
                     android:textAlignment="center"
                     android:textColor="@android:color/white"
-                    android:textSize="50sp" />
+                    android:textSize="30sp" />
 
             </FrameLayout>
 
@@ -93,5 +93,6 @@
             </RelativeLayout>
         </RelativeLayout>
     </ScrollView>
+
 
 </android.support.v4.widget.NestedScrollView>
